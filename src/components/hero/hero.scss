@@ -1,0 +1,132 @@
+.hero .container {
+    margin-bottom: 260px;
+}
+
+.hero__inner {
+    padding: 117px 85px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    background-image: url(../../Asseste/image/Bitmap.jpg);
+    background-size: 1280px 600px;
+    background-repeat: no-repeat;
+}
+
+.hero__heading {
+    width: 495px;
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+}
+
+.hero__text {
+    max-width: 445px;
+    width: 100%;
+    margin-bottom: 56px;
+    line-height: 26px;
+    color: #fefcf7;
+    opacity: 0.8;
+}
+
+.button {
+    display: inline-block;
+    width: 217px;
+    padding: 15px;
+    font-family: "Fraunces", "Times new roman", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #FEFCF7;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #0e8784;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+.button:hover {
+    background-color: #66d2cf;
+}
+
+.button:disabled {
+    background-color: #e2dedb;
+}
+
+@media only screen and (max-width: 1250px) {
+    .hero__inner {
+        background-position: right 10px top 0;
+        background-size: cover;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+
+    .hero__heading {
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 55px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .hero__inner {
+        background-position: right -80px top 20px;
+        background-size: cover;
+    }
+
+    .hero__heading {
+        font-size: 55px;
+        line-height: 50px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .hero__inner {
+        background-position: right -70px  top 0;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero__inner {
+        background-position: center center;
+        background-size: 690px 500px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .hero__heading {
+        max-width: 329px;
+        width: 100%;
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: 900;
+        font-style: normal;
+        letter-spacing: 0px;
+        margin-left: -15px;
+    }
+
+    .hero__text {
+        max-width: 398px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+        margin-left: -15px;
+    }
+    .button {
+        display: block;
+        margin-top: 40px;
+        margin-left: -15px;
+    }
+}
